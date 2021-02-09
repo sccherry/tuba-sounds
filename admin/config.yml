@@ -43,7 +43,10 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'album.njk' }
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'artist.njk'
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'hidden', default: ['artist'] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
