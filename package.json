@@ -5,16 +5,29 @@
   "description": "A discography for tubas.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build:site": "eleventy --config eleventy.config.js",
+    "build": "npm run build:site -- --pathprefix=tuba-sounds",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build:site -- --serve"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sccherry/tuba-sounds.git"
   },
+  "keywords": [
+    "eleventy"
+  ],
   "author": "Steve Cherry <stevenccherry@gmail.com> (https://stevecherry.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sccherry/tuba-sounds/issues"
   },
-  "homepage": "https://github.com/sccherry/tuba-sounds#readme"
+  "homepage": "https://github.com/sccherry/tuba-sounds#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "rimraf": "^3.0.2"
+  }
 }
