@@ -1,0 +1,36 @@
+backend:
+  name: github
+  repo: sccherry/tuba-sounds
+  branch: main
+  site_domain: sccherry.netlify.com
+publish_mode: editorial_workflow
+media_folder: 'src/img/uploads'
+public_folder: '/img/uploads'
+show_preview_links: false
+collections:
+  - label: 'Pages'
+    label_singular: 'Page'
+    name: 'pages'
+    editor:
+      preview: false
+    files:
+      - label: 'Home'
+        name: 'home'
+        file: 'src/index.md'
+        fields:
+          - label: 'Layout'
+            name: 'layout'
+            widget: 'hidden'
+            default: 'default.njk'
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - label: 'Navigation'
+            name: 'eleventyNavigation'
+            widget: 'object'
+            collapsed: true
+            fields:
+              - { label: 'Key', name: 'key', type: 'string' }
+              - label: 'Order'
+                name: 'order'
+                type: 'number'
+                value_type: 'int'
+          - { label: 'Body', name: 'body', widget: 'markdown' }
