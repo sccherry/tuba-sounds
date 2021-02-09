@@ -1,0 +1,20 @@
+{
+  "name": "tuba-sounds",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A discography for tubas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sccherry/tuba-sounds.git"
+  },
+  "author": "Steve Cherry <stevenccherry@gmail.com> (https://stevecherry.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sccherry/tuba-sounds/issues"
+  },
+  "homepage": "https://github.com/sccherry/tuba-sounds#readme"
+}
