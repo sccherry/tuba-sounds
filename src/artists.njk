@@ -1,0 +1,12 @@
+---
+layout: default.njk
+title: Artists
+eleventyNavigation:
+  key: Artists
+---
+
+<ol>
+  {% for item in collections.artist %}
+    <li><a href="{{ item.url | url }}">{{ item.data.title }}</a></li>
+  {% endfor %}
+</ol>

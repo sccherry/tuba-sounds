@@ -34,3 +34,19 @@ collections:
                 type: 'number'
                 value_type: 'int'
           - { label: 'Body', name: 'body', widget: 'markdown' }
+  - label: 'Artists'
+    label_singular: 'Artist'
+    name: 'artist'
+    folder: 'src/artist'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'artist.njk'
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'hidden', default: ['artist'] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
