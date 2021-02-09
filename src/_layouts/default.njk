@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or site.name }} | {{ site.name }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.css">
+</head>
+<body>
+  <header role="banner">
+    <h1>{{ site.name }}</h1>
+  </header>
+
+  <nav role="navigation">
+    <ul>
+      {% for page in collections.all | eleventyNavigation %}
+        <li>
+          <a href="{{ page.url | url }}">{{ page.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <main role="main">
+    <h2>{{ title }}</h2>
+    {{ content | safe }}
+  </main>
+
+  <footer role="contentinfo">
+    <p>{{ site.description }}</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.0/dist/alpine.min.js"></script>
+</body>
+</html>
