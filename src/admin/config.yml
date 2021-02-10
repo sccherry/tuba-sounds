@@ -35,7 +35,7 @@ collections:
                 value_type: 'int'
           - { label: 'Body', name: 'body', widget: 'markdown' }
   - label: 'Artists'
-    label_singluar: 'Artist'
+    label_singular: 'Artist'
     name: 'artist'
     folder: 'src/artist'
     create: true
