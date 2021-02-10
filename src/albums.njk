@@ -1,0 +1,27 @@
+---
+layout: default.njk
+pagination:
+  data: collections.album
+  size: 12
+permalink: albums/page-{{ pagination.pageNumber + 1 }}/index.html
+eleventyComputed:
+  title: 'Albums page {{ pagination.pageNumber + 1 }}'
+---
+
+<ol>
+  {% for item in pagination.items %}
+    <li><a href="{{ item.url | url }}">{{ item.data.title }}</a></li>
+  {% endfor %}
+</ol>
+
+<ol>
+  {% if pagination.previousPageLink %}
+    <li><a href="{{ pagination.firstPageHref | url }}">First</a></li>
+    <li><a href="{{ pagination.previousPageHref | url }}">Previous</a></li>
+  {% endif %}
+
+  {% if pagination.nextPageLink %}
+    <li><a href="{{ pagination.nextPageHref | url }}">Next</a></li>
+    <li><a href="{{ pagination.lastPageHref | url }}">Last</a></li>
+  {% endif%}
+</ol>
