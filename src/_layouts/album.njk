@@ -32,9 +32,7 @@ layout: default.njk
   <h3>Media</h3>
   <ul>
     {% for item in media %}
-      <li>
-        <a href="{{ item }}">{{ item }}</a>
-      </li>
+      <li>{{ item | safe }}</li>
     {% endfor %}
   </ul>
 {% endif %}
