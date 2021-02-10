@@ -50,3 +50,36 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'hidden', default: ['artist'] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - label: 'Albums'
+    label_singular: 'Album'
+    name: 'album'
+    folder: 'src/album'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'album.njk'
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'hidden', default: ['album'] }
+      - { label: 'Creator', name: 'creator', widget: 'string' }
+      - { label: 'Publisher', name: 'publisher', type: 'string' }
+      - label: 'Date'
+        name: 'date'
+        widget: 'datetime'
+        format: 'YYYY'
+        date_format: 'YYYY'
+        time_format: false
+      - label: 'Relations'
+        label_singular: 'Relation'
+        name: 'relation'
+        widget: 'list'
+        field: { label: 'URL', name: 'url', widget: 'string' }
+      - label: 'Media'
+        name: 'media'
+        widget: 'list'
+        field: { label: 'URL', name: 'url', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

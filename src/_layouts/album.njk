@@ -1,0 +1,40 @@
+---
+layout: default.njk
+---
+
+{{ content | safe }}
+
+<dl>
+  {% if creator | length %}
+    <dt>Creator(s)</dt>
+    <dd>{{ creator }}</dd>
+  {% endif %}
+
+  {% if publisher | length %}
+    <dt>Publisher</dt>
+    <dd>{{ publisher }}</dd>
+  {% endif %}
+
+  {% if date | length %}
+    <dt>Date</dt>
+    <dd>{{ date }}</dd>
+  {% endif %}
+
+  {% if relation | length %}
+    <dt>Relation(s)</dt>
+    {% for item in relation %}
+      <dd><a href="{{ item }}">{{ item }}</a></dd>
+    {% endfor %}
+  {% endif %}
+</dl>
+
+{% if media | length %}
+  <h3>Media</h3>
+  <ul>
+    {% for item in media %}
+      <li>
+        <a href="{{ item }}">{{ item }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
