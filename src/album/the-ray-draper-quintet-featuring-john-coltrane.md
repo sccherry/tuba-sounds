@@ -12,6 +12,8 @@ relation:
 media:
   - https://open.spotify.com/album/598qAYbrxRSHM5Tu54Wcbs
 ---
+Filidé and Paul's Pal reissued on John Coltrane album, [The Believer](https://en.wikipedia.org/wiki/The_Believer_(John_Coltrane_album)).
+
 ### Track listing
 
 All compositions by Ray Draper except as indicated
@@ -25,8 +27,8 @@ All compositions by Ray Draper except as indicated
 
 ### Personnel
 
-- Ray Draper – tuba
-- John Coltrane – tenor saxophone (tracks 1–5)
-- Gil Coggins – piano
-- Spanky DeBrest – bass
-- Larry Ritchie – drums
+* Ray Draper – tuba
+* John Coltrane – tenor saxophone (tracks 1–5)
+* Gil Coggins – piano
+* Spanky DeBrest – bass
+* Larry Ritchie – drums
