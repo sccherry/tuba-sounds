@@ -9,9 +9,13 @@ date: "1958"
 relation:
   - https://en.wikipedia.org/wiki/The_Ray_Draper_Quintet_featuring_John_Coltrane
   - https://www.allmusic.com/album/the-ray-draper-quintet-featuring-john-coltrane-mw0000873416
+  - https://www.discogs.com/The-Ray-Draper-Quintet-Featuring-John-Coltrane-The-Ray-Draper-Quintet-Featuring-John-Coltrane/master/344702
+  - https://musicbrainz.org/release-group/2b52695d-4030-32a8-95c9-e37a93341d9f
 media:
   - https://open.spotify.com/album/598qAYbrxRSHM5Tu54Wcbs
 ---
+Filidé and Paul's Pal reissued on John Coltrane album, [The Believer](https://en.wikipedia.org/wiki/The_Believer_(John_Coltrane_album)).
+
 ### Track listing
 
 All compositions by Ray Draper except as indicated
@@ -25,8 +29,8 @@ All compositions by Ray Draper except as indicated
 
 ### Personnel
 
-- Ray Draper – tuba
-- John Coltrane – tenor saxophone (tracks 1–5)
-- Gil Coggins – piano
-- Spanky DeBrest – bass
-- Larry Ritchie – drums
+* Ray Draper – tuba
+* John Coltrane – tenor saxophone (tracks 1–5)
+* Gil Coggins – piano
+* Spanky DeBrest – bass
+* Larry Ritchie – drums
