@@ -5,10 +5,12 @@ tags:
   - album
 creator: Ray Draper
 publisher: Jubilee
-date: "1958"
+date: "1959"
 relation:
   - https://www.allmusic.com/album/tuba-jazz-mw0000889994
   - https://en.wikipedia.org/wiki/Like_Sonny
+  - https://musicbrainz.org/release-group/5e3dd8f4-ff2d-4250-999e-66c8bcff201b
+  - https://www.discogs.com/Ray-Draper-A-Tuba-Jazz/master/570099
 media:
   - https://www.youtube.com/watch?v=MBUv1fpnBrI
 ---
