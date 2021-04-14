@@ -26,7 +26,7 @@ Track listing
 
 Personnel
 
-- Richard Aplanalp - Clarinet (Bass), Sax (Tenor)
+- Richard Aplan - Clarinet (Bass), Sax (Tenor)
 - David Dahlstein - Congas, Trombone
 - Ray Draper - Primary Artist, Tuba, Vibraphone, Vocals
 - Rodney Gooden III - Clarinet (Bass), Vocals
