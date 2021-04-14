@@ -9,6 +9,8 @@ date: "1957"
 relation:
   - https://en.m.wikipedia.org/wiki/Tuba_Sounds
   - http://www.allmusic.com/album/r137876
+  - https://www.discogs.com/Ray-Draper-Quintet-Tuba-Sounds/master/842475
+  - https://musicbrainz.org/release-group/8835457b-dfa9-43e6-9605-05c6b7d1f697
 media:
   - https://open.spotify.com/album/2Z6jL5NqdvqqN7zPsrqEYR
 ---
