@@ -49,6 +49,11 @@ collections:
         default: 'artist.njk'
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'hidden', default: ['artist'] }
+      - label: 'Relations'
+        label_singular: 'Relation'
+        name: 'relation'
+        widget: 'list'
+        field: { label: 'URL', name: 'url', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - label: 'Albums'
     label_singular: 'Album'
